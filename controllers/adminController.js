@@ -37,7 +37,7 @@ const addUserMail = async (name, email, password, user_id) => {
       html:
         "<p>Hello " +
         name +
-        ' click here to <a href="http://127.0.0.1:3000/verify?id=' +
+        ' click here to <a href="https://course-reg-lnm.onrender.com/verify?id=' +
         user_id +
         '"> verify</a> your mail. </p> <br><br> <b>Email- </b> ' +
         email +
