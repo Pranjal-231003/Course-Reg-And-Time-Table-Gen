@@ -76,7 +76,7 @@ const sendResetPasswordMail = async (name, email, token) => {
       html:
         "<p>Hello " +
         name +
-        ' click here to <a href="http://127.0.0.1:3000/forget-password?token=' +
+        ' click here to <a href="https://course-reg-lnm.onrender.com/forget-password?token=' +
         token +
         '"> Reset </a> your password. </p>',
     };
